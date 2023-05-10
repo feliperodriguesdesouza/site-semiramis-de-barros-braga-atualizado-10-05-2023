@@ -1,0 +1,188 @@
+* { 
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background: rgb(1, 10, 134);
+    padding: 20px 0;
+    margin: none;
+    display: block;
+}
+
+.caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.navega {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.navega li {
+    display: inline;
+}
+
+.navega a {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    background: rgb(243, 243, 243);
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navega a:hover {
+    box-shadow: 0 15px 25px rgb(1, 10, 134);
+    color: rgb(0, 0, 0);
+    background: rgba(2, 255, 137, 0.658);
+    border: 2px solid rgba(2, 177, 95, 0.993);
+    transition: all 0.7s;
+}
+
+.logo{
+    width: 17%;
+    border-radius: 80px;
+    margin: 40px 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(219, 218, 218);
+}
+
+main {
+    min-height: 1200px;
+}
+
+.imagem-colegio {
+    float: left;
+}
+
+.imagem-colegio img {
+    width: 700px;
+    margin: 10px 50PX 40PX 40PX;
+    box-shadow: 12px 12px 25px black;
+}
+
+.sobre {
+    width: 1140px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin: none;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.paragrafo-fora-da-caixa {
+    font-size: 23px;
+    margin: 10px 30px 30px;
+}
+
+.segundo-titulo {
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.mapa {
+    width: 800px;
+    margin: 140px auto 40px;
+}
+
+.lista {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.lista a {
+    display: inline-block;
+    padding: 100px 130px;
+    margin: 20px 35px;
+    border-radius: 17px;
+    width: 100px;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(245, 244, 244);
+}
+
+.lista > a {
+    background-image: url(facebook.png);
+}
+
+.lista > a + a {
+    background-image: url(instagram.png);
+}
+
+.lista a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.lista a:hover {
+    opacity: 0.7;
+}
+
+.ajuda {
+    right: 10px;
+    bottom: 30px;
+    position: fixed;
+}
+
+.ajuda img {
+    width: 80px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(1, 10, 134);
+    padding: 50px 0;
+}
+
+.icons img{
+    width: 40px;
+}
+
+.icons {
+    float: right;
+}
+
+.logo2 {
+    width: 200px;
+    margin: 20px 20px 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(129, 129, 129);
+    font-size: 18px;
+    padding: 0 0 12px 0;
+}
+
+.creditos {
+    color: rgba(173, 173, 173, 0.445);
+    font-size: 16px;
+    padding: 0 0 12px 0;
+}
